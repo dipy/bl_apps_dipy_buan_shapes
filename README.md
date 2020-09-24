@@ -1,9 +1,9 @@
 # Dipy Workflow Wrapper
 
-This is a Brainlife wrapper App for `dipy_mask` workflow. This single wrapper is exposed through an apps registered on [Brainlife.io](https://brainlife.io).
+This is a Brainlife wrapper App for `dipy_buan_shapes` workflow. This single wrapper is exposed through an apps registered on [Brainlife.io](https://brainlife.io).
 
 - More information about DIPY : [https://dipy.org/](https://dipy.org/)
-- More information about the command line `dipy_mask`: [Command line Reference](https://dipy.org/documentation/latest/reference_cmd/dipy_mask/)
+- More information about the command line `dipy_buan_shapes`: [Command line Reference](https://dipy.org/documentation/1.2.0./interfaces/buan_flow/)
 
 ## Running the App
 
@@ -17,7 +17,7 @@ To run this command, you can simply type:
 
 `singularity exec -e docker://brainlife/dipy:1.1.1 dipy_mask [your_args]`
 
-To see the documentation of all arguments, [go to the following page](https://dipy.org/documentation/1.1.1./reference_cmd/dipy_mask/)
+To see the documentation of all arguments, [go to the following page](https://dipy.org/documentation/1.2.0./interfaces/buan_flow/)
 
 ### Dependencies
 
