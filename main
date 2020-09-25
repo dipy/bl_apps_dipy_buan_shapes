@@ -35,4 +35,4 @@ esac
 chmod +x script.sh
 SINGULARITYENV_PYTHONNOUSERSITE=true singularity exec -e docker://brainlife/dipy:1.1.1 ./script.sh
 
-echo "done"
+echo "done ok"
