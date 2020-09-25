@@ -15,7 +15,7 @@ You can see a list of [Dipy Apps currently regsitered on Brainlife](https://brai
 
 To run this command, you can simply type:
 
-`singularity exec -e docker://brainlife/dipy:1.1.1 dipy_mask [your_args]`
+`singularity exec -e docker://brainlife/dipy:1.1.1 dipy_buan_shapes [your_args]`
 
 To see the documentation of all arguments, [go to the following page](https://dipy.org/documentation/1.2.0./interfaces/buan_flow/)
 
