@@ -14,9 +14,8 @@ chmod -R +w output
 time singularity exec -e docker://brainlife/dipy:1.1.1 dipy_buan_shapes \
     --force \
     --out_dir output \
-    --out_mask mask.nii.gz \
     --clust_thr $(jq -r .clust_thr config.json) \
     --threshold $(jq -r .threshold config.json) \
-    $(jq -r .img config.json) $(jq -r .lb config.json)
+    $(jq -r .subject_folder config.json) 
 
 echo "done"
