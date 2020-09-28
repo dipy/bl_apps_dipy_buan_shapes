@@ -10,12 +10,12 @@ set -x
 
 mkdir -p output
 chmod -R +w output
-
-time singularity exec -e docker://brainlife/dipy:1.1.1 dipy_buan_shapes \
+#time singularity exec -e docker://brainlife/dipy:1.1.1
+dipy_buan_shapes \
     --force \
     --out_dir output \
     --clust_thr $(jq -r .clust_thr config.json) \
     --threshold $(jq -r .threshold config.json) \
-    $(jq -r .subject_folder config.json) 
+    $(jq -r .subject_folder config.json)
 
 echo "done"

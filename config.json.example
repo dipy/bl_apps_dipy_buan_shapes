@@ -1,10 +1,6 @@
 {
-    "command": "dipy_mask:dwi",
-    "dwi": "testdata/brad1/data.nii.gz",
-    "lb": 0.2,
-    "ub": "Inf",
-    "img": "testdata/brad1/data.nii.gz"
-    "clust_thr": [5,3,1.5],
+    "command": "dipy_buan_shapes",
+    "clust_thr": "5 3 1.5 ",
     "threshold": 6,
-    "subject_folder": "testdata/subjects"
+    "subject_folder": "test_data/subjects"
 }
