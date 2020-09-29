@@ -5,6 +5,18 @@ This is a Brainlife wrapper App for `dipy_buan_shapes` workflow. This single wra
 - More information about DIPY : [https://dipy.org/](https://dipy.org/)
 - More information about the command line `dipy_buan_shapes`: [Command line Reference](https://dipy.org/documentation/1.2.0./interfaces/buan_flow/)
 
+## App Description
+
+ The `dipy_buan_shapes` app finds shape similarity between input bundles of same type across populations. This app implements bundle shape similarity method presented in Bundle analytics, a computational framework for investigating the shapes and profiles of brain pathways across populations paper [1].
+
+## Authors
+
+[Bramsh Chandio](https://github.com/BramshQamar)
+
+## Citations
+
+Chandio, BQ., et al. Bundle analytics, a computational framework for investigating the shapes and profiles of brain pathways across populations. Scientific reports, 2020.
+
 ## Running the App
 
 #### 1. On Brainlife.io
@@ -23,6 +35,4 @@ To see the documentation of all arguments, [go to the following page](https://di
 
 This app runs on [singularity](https://www.sylabs.io/singularity/).
 
-## Authors
 
-[Bramsh Chandio](https://github.com/BramshQamar)
