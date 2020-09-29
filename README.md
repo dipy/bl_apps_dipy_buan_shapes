@@ -25,4 +25,4 @@ This app runs on [singularity](https://www.sylabs.io/singularity/).
 
 ## Authors
 
-@bramshqamar
+[Bramsh Chandio](https://github.com/BramshQamar)
