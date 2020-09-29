@@ -22,3 +22,7 @@ To see the documentation of all arguments, [go to the following page](https://di
 ### Dependencies
 
 This app runs on [singularity](https://www.sylabs.io/singularity/).
+
+## Authors
+
+@bramshqamar
