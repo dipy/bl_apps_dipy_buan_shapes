@@ -15,7 +15,7 @@ This is a Brainlife wrapper App for `dipy_buan_shapes` workflow. This single wra
 
 ## Citations
 
-[1] Chandio, BQ., et al. Bundle analytics, a computational framework for investigating the shapes and profiles of brain pathways across populations. Scientific reports, 2020.
+[1] Chandio, BQ., et al. Bundle analytics, a computational framework for investigating the shapes and profiles of brain pathways across populations. Scientific reports,  10, 17149 (2020).
 
 ## Running the App
 
